@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Package Image -->
+        <ImageView
+            android:id="@+id/packageImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/packageTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Package Title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Price -->
+        <TextView
+            android:id="@+id/packagePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹25,000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Duration -->
+        <TextView
+            android:id="@+id/packageDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration: 5 Days / 4 Nights"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Itinerary -->
+        <TextView
+            android:id="@+id/packageItinerary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Itinerary: Day 1 - Arrival, Day 2 - Sightseeing..."
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Inclusions -->
+        <TextView
+            android:id="@+id/packageInclusions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inclusions: Hotel, Breakfast, Travel"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Full Description -->
+        <TextView
+            android:id="@+id/packageDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full package details go here. Activities, points of interest, weather tips etc."
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TOURISTER</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string-array name="seasons_array">
+        <item>Summer</item>
+        <item>Winter</item>
+        <item>Monsoon</item>
+        <item>Spring</item>
+        <item>Autumn</item>
+    </string-array>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Package Name -->
+        <EditText
+            android:id="@+id/packageNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Package Name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:drawable/edit_text" />
+
+        <!-- Package Description -->
+        <EditText
+            android:id="@+id/packageDescEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Package Description"
+            android:inputType="textMultiLine"
+            android:minLines="4"
+            android:gravity="top"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:drawable/edit_text" />
+
+        <!-- Season Spinner -->
+        <Spinner
+            android:id="@+id/seasonSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Availability Checkbox -->
+        <CheckBox
+            android:id="@+id/availableCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Image Preview -->
+        <ImageView
+            android:id="@+id/previewImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="10dp"
+            android:background="#dddddd" />
+
+        <!-- Upload Button -->
+        <Button
+            android:id="@+id/uploadImageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload New Image"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/updatePackageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Package"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>
